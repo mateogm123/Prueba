@@ -1,0 +1,75 @@
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    background-color: rgba(196,83,65,0.53);
+}
+
+/* Para la lista */
+ul{list-style: none;}
+li{display: inline-block; width: 150px;}
+ul.titulo{
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+/* Contenido de la lista */
+.principal{
+    width: 100%;
+    height: 15%;
+    object-fit: cover;
+}
+
+/*Flechas de la lista*/
+.flecha{width: 10%;}
+
+/*Para los iconos*/
+.icono{width: 20%;}
+
+/*Título principal*/
+h1{font-size: 50px; padding-top: 50px;}
+
+/*Imágenes en página secundaria*/
+.foto{width: 50%;}
+
+/*Cajas de texto al editar*/
+.texto{
+    background-color: black;
+    color: white;
+    width: 80%;
+    height: 3%;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Quitar texto en "Seleccionar archivo"*/
+input[type="file"] {color: transparent;}
+
+/* Corresponde a los botones, lo he sacado de:
+https://www.w3bai.com/es/css/css3_buttons.html#gsc.tab=0 */
+.boton {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgba(218,66,49,0.86);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-bottom: 30px;
+}
+.boton:hover {background-color: rgba(183,65,48,0.86)}
+.boton:active {
+    background-color: rgba(183,65,48,0.86);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
